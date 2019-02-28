@@ -6,6 +6,7 @@ verify_ssl = true
 [dev-packages]
 autopep8 = "*"
 python-githooks = "*"
+pytest = "*"
 
 [packages]
 numpy = "*"
@@ -14,5 +15,6 @@ numpy = "*"
 python_version = "3.6"
 
 [scripts]
+test = "pytest"
 init = "githooks"
 fix = "autopep8 -vir ."
