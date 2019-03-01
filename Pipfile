@@ -15,6 +15,7 @@ numpy = "*"
 python_version = "3.6"
 
 [scripts]
+start = "python main.py 10"
 test = "pytest"
 init = "githooks"
 fix = "autopep8 -vir ."

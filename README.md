@@ -4,8 +4,10 @@ author: Kazuma Sasaki
 
 ## How to start
 
-- `pipenv install`
+- `pipenv install --dev`
 - `pipenv init`
+
+Run the program by `pipenv run start`
 
 ## Update githook
 
